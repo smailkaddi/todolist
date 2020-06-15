@@ -7,7 +7,7 @@ body {
 	background: #F8F8FF;
 }
 
-.header {
+/* .header {
 	width: 40%;
 	margin: 50px auto 0px;
 	color: white;
@@ -17,15 +17,34 @@ body {
 	border-bottom: none;
 	border-radius: 10px 10px 0px 0px;
 	padding: 20px;
+} */
+
+.header {
+	width: 100%;
+	color: white;
+	text-align: center;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	height: 69px
 }
-form, .content {
+/* form, .content {
 	width: 40%;
 	margin: 0px auto;
 	padding: 20px;
 	border: 1px solid #B0C4DE;
 	background: white;
 	border-radius: 0px 0px 10px 10px;
+} */
+form, .content {
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 1px solid #B0C4DE;
+	height: 415px;
 }
+
+
 .input-group {
 	margin: 10px 0px 10px 0px;
 }
@@ -95,3 +114,7 @@ form, .content {
 	display: block;
 	clear: both;
 }
+
+
+
+

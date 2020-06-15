@@ -1,80 +1,116 @@
-<?php 
-	include('functions.php');
-
-
-?>
-
-</html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podcast | HOME</title>
-    <link rel="stylesheet" href="css/ccss.css">
-    <script src="https://kit.fontawesome.com/5fdbe7144b.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-	<link rel="icon" href="img/logo.png" type="image/png">
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>TO do list </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.min.css" rel="stylesheet">
 
 </head>
-<body>
 
-    <header>
-        
-        <ul class="menu">
-            <li><a href="index.php">HOME</a></li>
-            <li> <a href="index.php" ><img class="logo"src="img/logo.png" alt=""> </a> </li>
+<body id="page-top">
 
-                <div class="dropdown">
-                    <a href="login.php" class="dropbtn">login</a>
-                    
-                  </div>
-             </li>
-          </ul> 
-    </header>
-    <!-- count -->
-    <div class="count">
-     <img class="imagescount" src="img/image-asset.gif">
-     <p class="text-ourpodcasts"> OUR PODCASTS </p>
-     <center><div class="line"></div></center> 
-     
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">TO DO LIST </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="login.php">login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">sing up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!-- the -3-podcasts in our site  -->
-    <div class="the-3-PODCASTS" id="the-3-PODCASTS">
+  </nav>
 
-        <div class="images">
-           <a><img src="img/brian.jpg"></a>
-            <h1>BUSINESS PODCAST</h1> 
-            <h3> by: Brian KEANE</h3>
-            <h3>Category : Business/Fitness </h3>
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5">It does not matter what your work is or what are the items in your to-do lists!!</h1>
+            <a href="login.php" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+          </div>
         </div>
-        <div class="images">
-            <a ><img  src="img/garyvee.jpg"></a>
-            <h1> AUDIO EXPERIENCE </h1> 
-            <h3>by: Gary Vaynerchuk </h3>
-            <h3> Category : Business</h3>
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <div class="device-mockup iphone6_plus portrait white">
+              <div class="device">
+                <div class="screen">
+                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                  <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="button">
+                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="images">
-           <a > <img src="img/mfceo.jpg"> </a>
-            <h1> THE MFCEO PROJECT</h1> 
-            <h3> by: Andy Frisella</h3>
-            <h3> Category : Business</h3>
-        </div>
+      </div>
     </div>
- <!-- footer -->
- <footer>
-    <h3>Powered by : </h3>
-    <h2>YouCode Students</h2>
-    <div>
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+  </header>
+
+ 
+
+  <footer>
+    <div class="container">
+      <p>&copy; Your Website 2019. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Terms</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">FAQ</a>
+        </li>
+      </ul>
     </div>
-    <p>© 2020 Copyright YouCode Studios, All rights reserved.</p>
-</footer>
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="js/script.js"></script>  
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.min.js"></script>
+
 </body>
+
 </html>
